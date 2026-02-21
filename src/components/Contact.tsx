@@ -41,7 +41,7 @@ function Contact() {
             <Button
               variant="outlined"
               startIcon={<EmailIcon />}
-              href="mailto:your.email@ubc.ca" // Replace with your email
+              href="mailto:regandaniel89@gmail.com" // Replace with your email
             >
               Email Me
             </Button>
