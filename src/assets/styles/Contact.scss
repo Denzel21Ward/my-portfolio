@@ -1,0 +1,29 @@
+.contact-form {
+  padding-top: 20px;
+
+  // This fixes the "invisible" text issue
+  .MuiInputBase-input {
+    color: #050f0b !important; // Matches your button color (dark green/black)
+  }
+
+  // This ensures the label doesn't disappear
+  .MuiInputLabel-root {
+    color: #666 !important; 
+  }
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  // Changing this to white is fine, but we must ensure text isn't white too
+  fieldset {
+    background-color: white;
+  }
+}
