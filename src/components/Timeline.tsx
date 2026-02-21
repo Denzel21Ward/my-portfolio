@@ -2,7 +2,7 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -13,25 +13,7 @@ function Timeline() {
         <h1>Experience</h1>
         <VerticalTimeline>
 
-          {/* UBC Engineering Student */}
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Sept 2025 - Present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Engineering Student
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              University of British Columbia - Vancouver, BC
-            </h4>
-            <p>
-              First-year engineering student (GPA 3.9/4.33). Coursework in MATLAB, SolidWorks, and C programming with strong foundations in mechanical systems and design.
-            </p>
-          </VerticalTimelineElement>
-
-          {/* UBC Formula Electric */}
+          {/* UBC Formula Electric - NOW FIRST */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Jan 2026 - Present"
@@ -49,6 +31,24 @@ function Timeline() {
             </p>
           </VerticalTimelineElement>
 
+          {/* UBC Engineering Student - NOW SECOND */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Sept 2025 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Engineering Student
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              University of British Columbia - Vancouver, BC
+            </h4>
+            <p>
+              First-year engineering student with an 85% GPA. Coursework in MATLAB, SolidWorks, and C programming with strong foundations in mechanical systems and design.
+            </p>
+          </VerticalTimelineElement>
+
           {/* Cashier */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -63,7 +63,7 @@ function Timeline() {
               Four Rivers Co-op Home Centre - Vanderhoof, BC
             </h4>
             <p>
-              Processed transactions and balanced tills at end of day. Assisted customers with material cutting (chain, rope, flooring), stocked inventory, loaded lumber yard materials, and maintained a safe work environment.
+              Process transactions and balanced tills at end of day. Assisted customers with material cutting (chain, rope, flooring), stocked inventory, loaded lumber yard materials, and maintained a safe work environment.
             </p>
           </VerticalTimelineElement>
 
